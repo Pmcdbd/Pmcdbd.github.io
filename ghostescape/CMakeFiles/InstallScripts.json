@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/GhostEscape/build_wasm/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
