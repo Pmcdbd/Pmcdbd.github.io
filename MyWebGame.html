@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的游戏作品集</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f0f4f8; color: #333; }
+    header { background: #2c3e50; color: white; padding: 2rem 0; text-align: center; margin-bottom: 2rem; }
+    .container { max-width: 1000px; margin: 0 auto; padding: 0 1rem; }
+    .game-card {
+      background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 1.5rem; margin-bottom: 2rem; display: flex; gap: 1.5rem; align-items: center;
+    }
+    .game-card img { width: 200px; height: 150px; object-fit: cover; border-radius: 8px; }
+    .game-info { flex: 1; }
+    .game-info h2 { margin-bottom: 0.5rem; }
+    .game-info p { color: #666; margin-bottom: 1rem; }
+    .btn {
+      background: #3498db; color: white; padding: 0.6rem 1.2rem; text-decoration: none;
+      border-radius: 6px; font-weight: bold; transition: background 0.2s;
+    }
+    .btn:hover { background: #2980b9; }
+    footer { text-align: center; padding: 2rem; color: #999; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎮 我的游戏作品集</h1>
+    <p>使用 C++ / SDL3 开发 | 通过 WebAssembly 运行在浏览器中</p>
+  </header>
+
+  <div class="container">
+    <div class="game-card">
+      <img src="sunnyland/screenshot.png" alt="SunnyLand">
+      <div class="game-info">
+        <h2>SunnyLand</h2>
+        <p>一款 2D 横版冒险游戏，包含敌人 AI、物理碰撞、音效。</p>
+        <a class="btn" href="sunnyland/SunuyLand.html">🎮 在线试玩</a>
+      </div>
+    </div>
+
+    <div class="game-card">
+      <img src="gameB/screenshot.png" alt="Game B">
+      <div class="game-info">
+        <h2>幽灵逃生</h2>
+        <p>一款类幸存者的2D平面游戏</p>
+        <a class="btn" href="gameB/GameB.html">🎮 在线试玩</a>
+      </div>
+    </div>
+    <!-- 添加更多游戏卡片... -->
+  </div>
+
+  <footer>
+    © 2026 你的名字 | 构建于 GitHub Pages
+  </footer>
+</body>
+</html>
